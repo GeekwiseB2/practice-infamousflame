@@ -1,0 +1,16 @@
+body{
+  background-color:grey;
+  color:lightgrey;
+}
+.clearfix::before, .clearfix::after{
+  content:"";
+  float:none;
+  margin: 0;
+  display: block;
+}
+div{
+  margin:20px;
+}
+div li{
+  list-style-type: none;
+}
